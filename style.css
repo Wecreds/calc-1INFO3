@@ -19,7 +19,7 @@ body{
   border-radius: 40px;
 }
 
-.botao-numero {
+.numeros {
   border: 3px ;
   border-radius: 40px;
   font-size: 50px;
@@ -33,9 +33,18 @@ body{
   font-family: 'Fira Code', monospace;
   color: #1f1d2e;
   background-color: #ea9a97;
+  transition: all .3s;
 }
 
-.botao-operacao {
+.numeros:hover{
+    transform: scale(1.1);
+}
+
+.numeros:active{
+    transform: scale(0.8);
+}
+
+.operador{
   border: 3px ;
   font-size: 50px;
   text-align: center;
@@ -49,9 +58,10 @@ body{
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+
 }
 
-#botao-C {
+#btn-c {
   border: 3px ;
   font-size: 50px;
   text-align: center;
@@ -65,9 +75,27 @@ body{
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+
 }
 
-#igual {
+#btn-ponto {
+    border: 3px ;
+    font-size: 50px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    color: #1f1d2e;
+    border-radius: 40px;
+    background-color: #ea9a97;
+   
+  }
+
+#btn-igual {
   border: 3px ;
   font-size: 50px;
   text-align: center;
@@ -81,6 +109,7 @@ body{
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+
 }
 
 #visor {
@@ -93,6 +122,7 @@ body{
   color: #1f1d2e;
   background-color: #ea9a97;
   border-radius: 40px;
+ 
   
 }
 

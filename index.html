@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="shortcut icon" href="calc.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,30 +18,29 @@
     <div class="caixa-calc">
         <div id="visor"></div>
 
-        <div class="botao-numero">1</div>
-        <div class="botao-numero">2</div>
-        <div class="botao-numero">3</div>
-        <div id="botao-C" class="botao">C</div>
-        <div class="botao-numero">4</div>
-        <div class="botao-numero">5</div>
-        <div class="botao-numero">6</div>
-        <div class="botao-operacao">+</div>
-        <div class="botao-numero">7</div>
-        <div class="botao-numero">8</div>
-        <div class="botao-numero">9</div>
-        <div class="botao-operacao">-</div>
-        <div class="botao-numero">0</div>
+        <div class="numeros">1</div>
+        <div class="numeros">2</div>
+        <div class="numeros">3</div>
+        <div id="btn-c" onclick="reset()">C</div>
+        <div class="numeros">4</div>
+        <div class="numeros">5</div>
+        <div class="numeros">6</div>
+        <div class="operador">+</div>
+        <div class="numeros">7</div>
+        <div class="numeros">8</div>
+        <div class="numeros">9</div>
+        <div class="operador">-</div>
+        <div class="numeros">0</div>
 
-        <div class="botao-operacao">*</div>
-        <div class="botao-operacao">/</div>
-        <div class="botao-operacao">.</div>
+        <div class="operador">*</div>
+        <div class="operador">/</div>
+        <div id="btn-ponto">.</div>
 
-        <div id="igual">=</div>
+        <div id="btn-igual">=</div>
 
     </div>
 
     <!-- Pallete usada: Rosé Pine <3 -->
-
 </body>
 
 </html>
