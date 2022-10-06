@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-body{
-    background-color: #1f1d2e;
+body {
+  background-color: #1f1d2e;
 }
 
 .caixa-calc {
   width: 450px;
   height: 650px;
   margin: auto;
-  border: 3px ;
+  border: 3px;
   padding: 10px;
   position: relative;
   display: flex;
@@ -20,7 +20,7 @@ body{
 }
 
 .numeros {
-  border: 3px ;
+  border: 3px;
   border-radius: 40px;
   font-size: 50px;
   text-align: center;
@@ -30,22 +30,22 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #1f1d2e;
   background-color: #ea9a97;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.numeros:hover{
-    transform: scale(1.1);
+.numeros:hover {
+  transform: scale(1.1);
 }
 
-.numeros:active{
-    transform: scale(0.8);
+.numeros:active {
+  transform: scale(0.8);
 }
 
-.operador{
-  border: 3px ;
+.operador {
+  border: 3px;
   font-size: 50px;
   text-align: center;
   width: 100px;
@@ -54,15 +54,23 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+  transition: all 0.3s;
+}
 
+.operador:hover {
+  transform: scale(1.1);
+}
+
+.operador:active {
+  transform: scale(0.8);
 }
 
 #btn-c {
-  border: 3px ;
+  border: 3px;
   font-size: 50px;
   text-align: center;
   width: 100px;
@@ -71,32 +79,48 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+  transition: all 0.3s;
+}
 
+#btn-c:hover {
+  transform: scale(1.1);
+}
+
+#btn-c:active {
+  transform: scale(0.8);
 }
 
 #btn-ponto {
-    border: 3px ;
-    font-size: 50px;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-family: 'Fira Code', monospace;
-    color: #1f1d2e;
-    border-radius: 40px;
-    background-color: #ea9a97;
-   
-  }
+  border: 3px;
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Fira Code", monospace;
+  color: #1f1d2e;
+  border-radius: 40px;
+  background-color: #ea9a97;
+  transition: all 0.3s;
+}
+
+#btn-ponto:hover {
+  transform: scale(1.1);
+}
+
+#btn-ponto:active {
+  transform: scale(0.8);
+}
 
 #btn-igual {
-  border: 3px ;
+  border: 3px;
   font-size: 50px;
   text-align: center;
   width: 200px;
@@ -105,26 +129,31 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #1f1d2e;
   border-radius: 40px;
   background-color: #ea9a97;
+  transition: all 0.3s;
+}
 
+#btn-igual:hover {
+  transform: scale(1.1);
+}
+
+#btn-igual:active {
+  transform: scale(0.8);
 }
 
 #visor {
-  border: 3px ;
+  border: 3px;
   font-size: 50px;
   text-align: center;
   height: 60px;
   width: 440px;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #1f1d2e;
   background-color: #ea9a97;
   border-radius: 40px;
- 
-  
 }
 
 /* Pallete usada: Rosé Pine <3*/
-
