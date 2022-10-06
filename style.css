@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body{
+    background-color: #1f1d2e;
+}
+
+.caixa-calc {
+  width: 450px;
+  height: 650px;
+  margin: auto;
+  border: 3px ;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #26233a;
+  border-radius: 40px;
+}
+
+.botao-numero {
+  border: 3px ;
+  border-radius: 40px;
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  color: #1f1d2e;
+  background-color: #ea9a97;
+}
+
+.botao-operacao {
+  border: 3px ;
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  color: #1f1d2e;
+  border-radius: 40px;
+  background-color: #ea9a97;
+}
+
+#botao-C {
+  border: 3px ;
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  color: #1f1d2e;
+  border-radius: 40px;
+  background-color: #ea9a97;
+}
+
+#igual {
+  border: 3px ;
+  font-size: 50px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  color: #1f1d2e;
+  border-radius: 40px;
+  background-color: #ea9a97;
+}
+
+#visor {
+  border: 3px ;
+  font-size: 50px;
+  text-align: center;
+  height: 60px;
+  width: 440px;
+  font-family: 'Fira Code', monospace;
+  color: #1f1d2e;
+  background-color: #ea9a97;
+  border-radius: 40px;
+  
+}
+
+/* Pallete usada: Rosé Pine <3*/
+
