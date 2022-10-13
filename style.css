@@ -154,6 +154,11 @@ body {
   color: #1f1d2e;
   background-color: #ea9a97;
   border-radius: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
+
 
 /* Pallete usada: Rosé Pine <3*/
